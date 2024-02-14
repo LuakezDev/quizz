@@ -104,7 +104,12 @@ for(const item of perguntas){
 
         const dt = quizItem.querySelector('dl dt').cloneNode(true)
         dt.querySelector('span').textContent = resposta
+        dt.querySelector('input').setAttribute('nmae','pergunta-' + perguntas.indexOf(item))
+        dt.querySelector('input').value = item.respostas.indexOf(resposta)
 
+        dt.querySelector(input).onchange = () =>{
+            
+        }
         quizItem.querySelector('dl').appendChild(dt)
     }
 
