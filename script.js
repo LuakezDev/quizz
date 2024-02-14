@@ -131,3 +131,18 @@ for(const item of perguntas){
      //Coloca pergunta na tela
     quiz.appendChild(quizItem)
 }
+
+
+/*Crie 10 sobre o tópico Fundamentos do Javascript com 3 opções de resposta e uma resposta correta, pra compor um aplicativo em Javascript. Responda em essa estrutura de dados do exemplo abaixo:
+
+ const perguntas = [
+    {
+        pergunta: "Pergunta 01",
+        respostas:[
+            "Resposta A",
+            "Resposta B",
+            "Resposta C",
+        ],
+        correta: 2
+    },
+]*/
